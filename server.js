@@ -40,7 +40,7 @@ if( require('fs').existsSync("/ce_development") ){
 	
 }
 
-process.title = 'CE'; // doesn't work on OS X
+process.title = 'CE juggernaut'; // doesn't work on OS X
 
 Juggernaut = require("./index");
 Juggernaut.listen(argv.port);
